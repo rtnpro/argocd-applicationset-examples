@@ -1,0 +1,4 @@
+dependencies:
+- name: guestbook
+  repository: https://ibm.github.io/helm101/
+  version: 0.2.0

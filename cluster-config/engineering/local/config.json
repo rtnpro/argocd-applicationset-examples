@@ -2,6 +2,6 @@
    "cluster": {
        "owner": "Jesse_Suen@intuit.com",
        "name": "engineering-dev",
-       "address": "http://1.2.3.4"
+       "address": "https://kubernetes.default.svc"
    }
 }

@@ -6,12 +6,14 @@ spec:
   generators:
   - git:
       repoURL: git@github.com:rtnpro/argocd-applicationset-examples.git
+      revision: HEAD
       files:
       - path: "**/config.json"
   template:
     metadata:
       name: '{{cluster.name}}-guestbook'
     spec:
+      project: default
       source:
         repoURL: git@github.com:rtnpro/argocd-applicationset-examples.git
         targetRevision: HEAD

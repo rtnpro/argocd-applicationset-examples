@@ -1,0 +1,7 @@
+{
+   "cluster": {
+       "owner": "Jesse_Suen@intuit.com",
+       "name": "staging",
+       "address": "https://kubernetes.default.svc"
+   }
+}
